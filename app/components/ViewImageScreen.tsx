@@ -1,6 +1,10 @@
 import React from 'react'
 import { Image, StyleSheet, Text, View } from 'react-native'
 
+import { MaterialCommunityIcons } from '@expo/vector-icons'
+import colors from '../../constants/Colors'
+
+
 const ViewImageScreen = () => {
   return (
     <View style={styles.container}>
@@ -26,15 +30,15 @@ const styles = StyleSheet.create({
   closeIcon: {
     width: 50,
     height: 50,
-    // backgroundColor: colors.primary,
-    backgroundColor: "red",
+    backgroundColor: colors.primary,
+    // backgroundColor: "red",
     position: "absolute",
     top: 40,
     left: 30,
   },
   container: {
-    // backgroundColor: colors.black,
-    backgroundColor: "dodgerblue",
+    backgroundColor: colors.black,
+    // backgroundColor: "dodgerblue",
     flex: 1,
     width: '100%',
     height: '100%',
@@ -42,8 +46,8 @@ const styles = StyleSheet.create({
   deleteIcon: {
     width: 50,
     height: 50,
-    // backgroundColor: colors.secondary,
-    backgroundColor: "green",
+    backgroundColor: colors.secondary,
+    // backgroundColor: "green",
     position: "absolute",
     top: 40,
     right: 30,
