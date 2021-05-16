@@ -39,15 +39,18 @@ const styles = StyleSheet.create({
     height: 300,
   },
   price: {
+    fontFamily: "CharterBoldItalic",
     color: colors.secondary,
-    fontWeight: "bold",
+    fontWeight: "600",
+    // fontWeight: "bold",
     fontSize: 20,
     marginVertical: 10,
   },
   title: {
+    fontFamily: "CharterBold",
     fontSize: 24,
-    // fontWeight: "500",
-    fontWeight: "bold",
+    fontWeight: "600",
+    // fontWeight: "bold",
   },
   userContainer: {
     marginVertical: 40,

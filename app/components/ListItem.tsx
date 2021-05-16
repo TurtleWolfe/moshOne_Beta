@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
     color: colors.medium,
   },
   title: {
-    // fontWeight: "500",
-    fontWeight: "bold",
+    fontFamily: "CharterBoldItalic",
+    fontWeight: "600",
+    // fontWeight: "bold",
   },
 })
