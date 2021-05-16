@@ -1,7 +1,8 @@
 import React from 'react'
 import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native'
 
-import colors from '../../constants/Colors'
+// import colors from '../../constants/Colors'
+import AppButton from '../components/AppButton'
 
 const WelcomeScreen = () => {
   return (
@@ -23,13 +24,17 @@ const WelcomeScreen = () => {
           Welcome Screen
       </Text>
       </View>
-      <View
-        style={styles.loginButton}
-      ></View>
-      <View
-        style={styles.registerButton}
-      ></View>
-      <Text></Text>
+
+      <View style={styles.buttonContainer}>
+        <AppButton
+          title="Login"
+          onPress={() => console.log("login")} />
+        <AppButton
+          title="Register"
+          onPress={() => console.log("register")}
+          color="secondary" />
+      </View>
+
     </ImageBackground>
   )
 }
@@ -37,16 +42,16 @@ const WelcomeScreen = () => {
 export default WelcomeScreen
 
 const styles = StyleSheet.create({
-  loginButton: {
-    width: "100%",
-    height: 70,
-    backgroundColor: colors.primary,
-  },
-  registerButton: {
-    width: "100%",
-    height: 70,
-    backgroundColor: colors.secondary,
-  },
+  // loginButton: {
+  //   width: "100%",
+  //   height: 70,
+  //   backgroundColor: colors.primary,
+  // },
+  // registerButton: {
+  //   width: "100%",
+  //   height: 70,
+  //   backgroundColor: colors.secondary,
+  // },
   background: {
     alignContent: 'center',
     alignItems: 'center',

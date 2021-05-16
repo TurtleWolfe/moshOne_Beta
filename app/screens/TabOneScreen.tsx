@@ -3,12 +3,21 @@ import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import WelcomeScreen from '../components/WelcomeScreen';
-import { Text, View } from '../components/Themed';
+import AppCard from '../components/AppCard';
+import ListingDetailsScreen from '../components/ListingDetailsScreen';
+// import AppText from '../components/AppText';
+import { View } from '../components/Themed';
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <WelcomeScreen />
+      {/* <WelcomeScreen /> */}
+      <ListingDetailsScreen />
+      {/* <AppCard
+        title='Red Jacket'
+        subTitle='$100'
+        image={require('../assets/Supplementary/jacket.jpg')}
+      /> */}
       {/* <Text style={styles.title}>Tab One</Text> */}
       {/* <View
         style={styles.separator}
@@ -25,6 +34,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'pink',
   },
   title: {
     fontSize: 20,

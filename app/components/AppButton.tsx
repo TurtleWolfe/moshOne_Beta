@@ -1,14 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity } from 'react-native'
-// import { TouchableOpacity } from 'react-native-gesture-handler'
 
-import colors from '../constants/Colors'
+import colors from '../../constants/Colors'
 
-export default function AppButton({
+const AppButton = ({
   color = "primary",
   onPress = () => console.log("default tapped"),
   title = 'default',
-}) {
+}) => {
   return (
     <TouchableOpacity
       style={[styles.button,
@@ -20,6 +19,8 @@ export default function AppButton({
   )
 }
 
+export default AppButton
+
 const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.primary,
@@ -28,6 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 15,
     width: '100%',
+    marginVertical: 10,
   },
   text: {
     color: colors.white,
