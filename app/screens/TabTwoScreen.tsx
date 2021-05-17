@@ -3,12 +3,14 @@ import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import ViewImageScreen from '../components/ViewImageScreen';
+import MessageScreen from '../components/MessagesScreen';
 import { Text, View } from '../components/Themed';
 
 export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
-      <ViewImageScreen />
+      <MessageScreen />
+      {/* <ViewImageScreen /> */}
       {/* <Text style={styles.title}>Tab Two</Text> */}
       {/* <View
         style={styles.separator}

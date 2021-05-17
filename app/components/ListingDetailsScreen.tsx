@@ -7,7 +7,7 @@ import ListItem from "./ListItem";
 
 const ListingDetailsScreen = () => {
   return (
-    <View>
+    <View style={styles.view}>
       <Image
         style={styles.image}
         source={require("../assets/Supplementary/jacket.jpg")}
@@ -34,9 +34,17 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   image: {
-    // width: "99%",
-    width: 400,
-    height: 300,
+    // resizeMode: 'cover',
+    width: "100%",
+    // width: 300,
+    height: 250,
+  },
+  view: {
+    flex: 1,
+    // resizeMode: 'center',
+    width: "100%",
+    // width: 300,
+    // height: 200,
   },
   price: {
     fontFamily: "CharterBoldItalic",
@@ -53,6 +61,6 @@ const styles = StyleSheet.create({
     // fontWeight: "bold",
   },
   userContainer: {
-    marginVertical: 40,
+    marginVertical: 7,
   },
 })

@@ -1,28 +1,27 @@
-import React from 'react'
+import React from "react";
 import {
-  Image,
-  StyleSheet,
-  TouchableHighlight,
   View,
-} from 'react-native'
-
+  StyleSheet,
+  Image,
+  TouchableOpacity,
+  TouchableHighlight,
+} from "react-native";
 import AppText from "./AppText";
 import Swipeable from "react-native-gesture-handler/Swipeable";
-import colors from "../../constants/Colors";
 
-const ListItem = ({
+import colors from "../config/colors";
+
+function ListItem({
   title,
   subTitle,
   image,
   IconComponent,
   onPress,
   renderRightActions,
-}) => {
+}) {
   return (
     <Swipeable renderRightActions={renderRightActions}>
-      <TouchableHighlight
-        underlayColor={colors.black}
-        onPress={onPress}>
+      <TouchableHighlight underlayColor={colors.light} onPress={onPress}>
         <View style={styles.container}>
           {IconComponent}
           {image && <Image style={styles.image} source={image} />}
@@ -33,17 +32,14 @@ const ListItem = ({
         </View>
       </TouchableHighlight>
     </Swipeable>
-  )
+  );
 }
-
-export default ListItem
 
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     padding: 15,
     backgroundColor: colors.white,
-    // backgroundColor: colors.secondary,
   },
   detailsContainer: {
     marginLeft: 10,
@@ -53,18 +49,13 @@ const styles = StyleSheet.create({
     width: 70,
     height: 70,
     borderRadius: 35,
-    marginRight: 10,
-    // backgroundColor: colors.primary,
-    backgroundColor: "yellow",
   },
   subTitle: {
     color: colors.medium,
-    fontFamily: "CharterItalic",
-    fontWeight: "600",
   },
   title: {
-    fontFamily: "CharterBold",
-    fontWeight: "600",
-    // fontWeight: "bold",
+    fontWeight: "500",
   },
-})
+});
+
+export default ListItem;
