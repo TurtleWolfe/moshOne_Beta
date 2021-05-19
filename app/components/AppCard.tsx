@@ -23,11 +23,11 @@ export default AppCard
 const styles = StyleSheet.create({
   card: {
     borderRadius: 15,
-    backgroundColor: colors.white,
+    backgroundColor: colors.lightGrey,
     marginBottom: 20,
     overflow: "hidden",
     // width: 360,
-    width: "90%",
+    width: "100%",
 
   },
   detailsContainer: {
@@ -39,6 +39,8 @@ const styles = StyleSheet.create({
     height: 200,
     resizeMode: "cover",
     justifyContent: "center",
+    backgroundColor: colors.medium,
+
   },
   subTitle: {
     color: colors.secondary,

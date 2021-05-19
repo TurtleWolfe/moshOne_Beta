@@ -8,7 +8,7 @@ const AppIcon = ({
   name = "email",
   size = 40,
   backgroundColor = colors.black,
-  iconColor = colors.primary,
+  iconColor = colors.lightGrey,
 }) => {
   return (
     <View

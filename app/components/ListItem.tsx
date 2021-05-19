@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: "CharterBold",
-    fontWeight: "600",
+    fontWeight: "400",
     // fontWeight: "bold",
   },
 })

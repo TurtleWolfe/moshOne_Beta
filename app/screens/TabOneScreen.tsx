@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 
+import AccountScreen from '../components/AccountScreen';
 import AppCard from '../components/AppCard';
+import AppIcon from '../components/AppIcon';
 import AppText from '../components/AppText';
 import EditScreenInfo from '../components/EditScreenInfo';
-import AppIcon from '../components/AppIcon';
 import ListingDetailsScreen from '../components/ListingDetailsScreen';
+import ListingsScreen from '../components/ListingsScreen';
 import ListItem from "../components/ListItem";
 
 import WelcomeScreen from '../components/WelcomeScreen';
@@ -17,6 +19,7 @@ export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       {/* <WelcomeScreen /> */}
+      {/* <AccountScreen /> */}
       {/* <AppIcon
         name="email"
         size={50}
@@ -29,7 +32,8 @@ export default function TabOneScreen() {
         image={require('../assets/Supplementary/jacket.jpg')}
       /> */}
       {/* <ListingDetailsScreen /> */}
-      <ListItem
+      <ListingsScreen />
+      {/* <ListItem
         // image={require("../assets/Supplementary/Turtlewolfe.png")}
         title="TurtleWolfe"
         // subTitle="5 Listings"
@@ -38,7 +42,7 @@ export default function TabOneScreen() {
           // name='trash-can-outline'
           />
         }
-      />
+      /> */}
       {/* <Text style={styles.title}>Tab One</Text> */}
       {/* <View
         style={styles.separator}
