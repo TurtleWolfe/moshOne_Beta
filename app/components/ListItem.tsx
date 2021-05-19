@@ -27,12 +27,12 @@ const ListItem = ({
           {IconComponent}
           {image && <Image style={styles.image} source={image} />}
           <View style={styles.detailsContainer}>
-            <AppText style={styles.title}>{title}</AppText>
+            {title && <AppText style={styles.title}>{title}</AppText>}
             {subTitle && <AppText style={styles.subTitle}>{subTitle}</AppText>}
           </View>
         </View>
       </TouchableHighlight>
-    </Swipeable>
+    </Swipeable >
   )
 }
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     width: 70,
     height: 70,
     borderRadius: 35,
-    marginRight: 10,
+    // marginRight: 10,
     // backgroundColor: colors.primary,
     backgroundColor: "yellow",
   },
