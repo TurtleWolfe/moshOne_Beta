@@ -1,10 +1,13 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet } from 'react-native';
+
+import defaultStyles from "../config/styles";
 
 import AccountScreen from '../components/AccountScreen';
 import AppCard from '../components/AppCard';
 import AppIcon from '../components/AppIcon';
 import AppText from '../components/AppText';
+import AppPicker from '../components/AppPicker';
 import AppTextInput from '../components/AppTextInput';
 // import EditScreenInfo from '../components/EditScreenInfo';
 import ListItem from "../components/ListItem";
@@ -16,7 +19,14 @@ import WelcomeScreen from '../components/WelcomeScreen';
 import { View } from '../components/Themed';
 import Icon from '../components/moshZalphaComponents/Icon';
 
+const categories = [
+  { label: "Furniture", value: 1 },
+  { label: "Clothing", value: 2 },
+  { label: "Cameras", value: 3 },
+];
+
 export default function TabOneScreen() {
+  const [category, setCategory] = useState(categories[0]);
   return (
     <View style={styles.container}>
       {/* <WelcomeScreen /> */}
@@ -35,7 +45,15 @@ export default function TabOneScreen() {
       {/* <AppText /> */}
       <AppTextInput
         placeholder="User Email"
+        // placeholderTextColor={defaultStyles.colors.danger}
         icon="email"
+      />
+      <AppPicker
+        icon="apps"
+        items={categories}
+        onSelectItem={(item) => setCategory(item)}
+        placeholder="Category"
+        selectedItem={category}
       />
       {/* <ListItem
         // image={require("../assets/Supplementary/Turtlewolfe.png")}

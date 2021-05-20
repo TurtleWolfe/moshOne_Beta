@@ -6,7 +6,7 @@ import colors from '../../constants/Colors'
 export default {
   colors,
   text: {
-    color: colors.darkGrey,
+    color: colors.primary,
     fontSize: 18,
     // fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
     fontFamily: "CharterRegular",
