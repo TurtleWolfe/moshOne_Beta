@@ -5,10 +5,11 @@ import AccountScreen from '../components/AccountScreen';
 import AppCard from '../components/AppCard';
 import AppIcon from '../components/AppIcon';
 import AppText from '../components/AppText';
-import EditScreenInfo from '../components/EditScreenInfo';
+import AppTextInput from '../components/AppTextInput';
+// import EditScreenInfo from '../components/EditScreenInfo';
+import ListItem from "../components/ListItem";
 import ListingDetailsScreen from '../components/ListingDetailsScreen';
 import ListingsScreen from '../components/ListingsScreen';
-import ListItem from "../components/ListItem";
 
 import WelcomeScreen from '../components/WelcomeScreen';
 
@@ -20,19 +21,22 @@ export default function TabOneScreen() {
     <View style={styles.container}>
       {/* <WelcomeScreen /> */}
       {/* <AccountScreen /> */}
+      {/* <AppCard
+        title='Red Jacket'
+        subTitle='$100'
+        image={require('../assets/Supplementary/jacket.jpg')}
+      /> */}
       {/* <AppIcon
         name="email"
         size={50}
         backgroundColor="red"
         iconColor="white"
       /> */}
-      {/* <AppCard
-        title='Red Jacket'
-        subTitle='$100'
-        image={require('../assets/Supplementary/jacket.jpg')}
-      /> */}
-      {/* <ListingDetailsScreen /> */}
-      <ListingsScreen />
+      {/* <AppText /> */}
+      <AppTextInput
+        placeholder="User Email"
+        icon="email"
+      />
       {/* <ListItem
         // image={require("../assets/Supplementary/Turtlewolfe.png")}
         title="TurtleWolfe"
@@ -43,6 +47,8 @@ export default function TabOneScreen() {
           />
         }
       /> */}
+      {/* <ListingDetailsScreen /> */}
+      {/* <ListingsScreen /> */}
       {/* <Text style={styles.title}>Tab One</Text> */}
       {/* <View
         style={styles.separator}

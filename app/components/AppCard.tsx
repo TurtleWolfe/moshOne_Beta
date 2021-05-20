@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     height: 200,
     resizeMode: "cover",
     justifyContent: "center",
-    backgroundColor: colors.medium,
+    backgroundColor: colors.mediumGrey,
 
   },
   subTitle: {

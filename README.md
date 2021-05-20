@@ -64,14 +64,14 @@ onPress={handlePress}
 [Layout #6 Flexbox-justifyContent](https://codewithmosh.com/courses/887220/lectures/16617484 '1:43 justifyContent: "space-evenly"')  
 [Layout #7 Flexbox-alignContent](https://codewithmosh.com/courses/887220/lectures/16617480 '2:33 alignContent: "center"')
 
-### [Styling #5 Styling Texts](https://codewithmosh.com/courses/887220/lectures/16617561 'expo install expo-font (OTF)')
+### [Styles #5 Styling Texts](https://codewithmosh.com/courses/887220/lectures/16617561 'expo install expo-font (OTF)')
 
 [https://github.com/react-native-training/react-native-fonts](https://github.com/react-native-training/react-native-fonts 'List of system fonts on iOS and Android:')  
-[Styling #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component  imrn  2:00 {children} rnss - rn-stylesheet')  
+[Styles #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component  imrn  2:00 {children} rnss - rn-stylesheet')  
 [https://icons.expo.fyi/](https://icons.expo.fyi/ 'expo.github.io/vector-icons/')  
-[Styling #8 Platform-Specific](https://codewithmosh.com/courses/887220/lectures/16617555 '...Platform (spread  2:00)')  
-[Styling #12 Improving the Welcome Screen](https://codewithmosh.com/courses/887220/lectures/16617564 '4:00 style={[styles.button, { backgroundColor: colors[color] }]}')  
-[Styling #13 Card Component](https://codewithmosh.com/courses/887220/lectures/16617550 'rnsf 4:00 {destructuring} 6:00 {require} 8:00 style={[styles.text, style]} 9:30 {overflow}')
+[Styles #8 Platform-Specific](https://codewithmosh.com/courses/887220/lectures/16617555 '...Platform (spread  2:00)')  
+[Styles #12 Improving the Welcome Screen](https://codewithmosh.com/courses/887220/lectures/16617564 '4:00 style={[styles.button, { backgroundColor: colors[color] }]}')  
+[Styles #13 Card Component](https://codewithmosh.com/courses/887220/lectures/16617550 'rnsf 4:00 {destructuring} 6:00 {require} 8:00 style={[styles.text, style]} 9:30 {overflow}')
 
 ### [Lists #3 Extracting the Screen Component](https://codewithmosh.com/courses/887220/lectures/16687902 'paddingTop: Constants.statusBarHeight,')
 
@@ -81,10 +81,12 @@ onPress={handlePress}
 [Lists #8 Implementing Pull to Refresh](https://codewithmosh.com/courses/887220/lectures/16687895 '0:45 const [refreshing, setRefreshing] = useState(false);')  
 [Lists #12 Extending the ListItem Component](https://codewithmosh.com/courses/887220/lectures/16687905 '1:15 Conditional rendering {image && </Image style={styles.image} source={image} />}')  
 [Lists #13 Building the Account Screen](https://codewithmosh.com/courses/887220/lectures/16687953 '7:15 merging prop styles, style={[styles.screen, style] 8:00 breaks rule for re-usablity')  
-[Lists #14 Building the Listings Screen](https://codewithmosh.com/courses/887220/lectures/16687954 '3:15 subTitle={"$" + item.price} 5:00  </View style={style}>{children}</>')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Lists #14 Building the Listings Screen](https://codewithmosh.com/courses/887220/lectures/16687954 '3:15 subTitle={"$" + item.price} 5:00  </View style={style}>{children}</>')
+
+### [Input Components # 3 Building a Pretty TextInput](https://codewithmosh.com/courses/887220/lectures/16762423 '3:15 conditional icon, 5:00 destructuring ({ icon, ...otherProps })')
+
+[Input Components #4 Extracting the Default Styles](https://codewithmosh.com/courses/887220/lectures/16762425 '2:00 style={defaultStyles.text} 3:00 defaultStyles.colors.lightGrey,')  
+[Input Components #6 Picker](https://codewithmosh.com/courses/887220/lectures/16762419 'expo install @react-native-community/datetimepicker')  
 [Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
 [Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
 [Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
