@@ -86,13 +86,15 @@ onPress={handlePress}
 ### [Input Components # 3 Building a Pretty TextInput](https://codewithmosh.com/courses/887220/lectures/16762423 '3:15 conditional icon, 5:00 destructuring ({ icon, ...otherProps })')
 
 [Input Components #4 Extracting the Default Styles](https://codewithmosh.com/courses/887220/lectures/16762425 '2:00 style={defaultStyles.text} 3:00 defaultStyles.colors.lightGrey,')  
-[Input Components #6 Picker](https://codewithmosh.com/courses/887220/lectures/16762419 'expo install @react-native-community/datetimepicker')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Input Components #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
+[Input Components #6 Picker](https://codewithmosh.com/courses/887220/lectures/16762419 'expo install @react-native-community/datetimepicker')
+
+### [Forms #2 Building the Login Form](https://codewithmosh.com/courses/887220/lectures/16762473 '6:30 onChangeText={text => setEmail(text)}')
+
+[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
 
 [Uploading Apps to the Apple App Store and Google Play](https://docs.expo.io/distribution/uploading-apps/ 'Uploading Apps to the Apple App Store and Google Play')  
 [Overview](https://docs.expo.io/distribution/introduction/ 'Overview')  

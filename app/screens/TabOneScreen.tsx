@@ -13,6 +13,7 @@ import AppTextInput from '../components/AppTextInput';
 import ListItem from "../components/ListItem";
 import ListingDetailsScreen from '../components/ListingDetailsScreen';
 import ListingsScreen from '../components/ListingsScreen';
+import LoginScreen from '../components/LoginScreen';
 
 import WelcomeScreen from '../components/WelcomeScreen';
 
@@ -43,18 +44,18 @@ export default function TabOneScreen() {
         iconColor="white"
       /> */}
       {/* <AppText /> */}
-      <AppTextInput
+      {/* <AppTextInput
         placeholder="User Email"
         // placeholderTextColor={defaultStyles.colors.danger}
         icon="email"
-      />
-      <AppPicker
+      /> */}
+      {/* <AppPicker
         icon="apps"
         items={categories}
         onSelectItem={(item) => setCategory(item)}
         placeholder="Category"
         selectedItem={category}
-      />
+      /> */}
       {/* <ListItem
         // image={require("../assets/Supplementary/Turtlewolfe.png")}
         title="TurtleWolfe"
@@ -67,6 +68,7 @@ export default function TabOneScreen() {
       /> */}
       {/* <ListingDetailsScreen /> */}
       {/* <ListingsScreen /> */}
+      <LoginScreen />
       {/* <Text style={styles.title}>Tab One</Text> */}
       {/* <View
         style={styles.separator}
