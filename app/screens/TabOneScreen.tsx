@@ -12,6 +12,7 @@ import AppTextInput from '../components/AppTextInput';
 // import EditScreenInfo from '../components/EditScreenInfo';
 import ListItem from "../components/ListItem";
 import ListingDetailsScreen from '../components/ListingDetailsScreen';
+import ListingEditScreen from '../components/ListingEditScreen';
 import ListingsScreen from '../components/ListingsScreen';
 import LoginScreen from '../components/LoginScreen';
 
@@ -67,8 +68,9 @@ export default function TabOneScreen() {
         }
       /> */}
       {/* <ListingDetailsScreen /> */}
+      <ListingEditScreen />
       {/* <ListingsScreen /> */}
-      <LoginScreen />
+      {/* <LoginScreen /> */}
       {/* <Text style={styles.title}>Tab One</Text> */}
       {/* <View
         style={styles.separator}
