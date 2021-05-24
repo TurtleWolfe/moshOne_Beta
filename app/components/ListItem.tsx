@@ -5,9 +5,10 @@ import {
   TouchableHighlight,
   View,
 } from 'react-native'
+import { MaterialCommunityIcons } from '@expo/vector-icons'
+import Swipeable from "react-native-gesture-handler/Swipeable";
 
 import AppText from "./AppText";
-import Swipeable from "react-native-gesture-handler/Swipeable";
 import colors from "../../constants/Colors";
 
 const ListItem = ({
@@ -27,9 +28,20 @@ const ListItem = ({
           {IconComponent}
           {image && <Image style={styles.image} source={image} />}
           <View style={styles.detailsContainer}>
-            {title && <AppText style={styles.title}>{title}</AppText>}
-            {subTitle && <AppText style={styles.subTitle}>{subTitle}</AppText>}
+            {title && <AppText
+              style={styles.title}
+              numberOfLines={1}
+            >{title}</AppText>}
+            {subTitle && <AppText
+              style={styles.subTitle}
+              numberOfLines={2}
+            >{subTitle}</AppText>}
           </View>
+          <MaterialCommunityIcons
+            color={colors.mediumGrey}
+            name="chevron-right"
+            size={25}
+          />
         </View>
       </TouchableHighlight>
     </Swipeable >
@@ -40,12 +52,14 @@ export default ListItem
 
 const styles = StyleSheet.create({
   container: {
+    alignItems: "center",
     flexDirection: "row",
     padding: 15,
     backgroundColor: colors.white,
     // backgroundColor: colors.secondary,
   },
   detailsContainer: {
+    flex: 1,
     marginLeft: 10,
     justifyContent: "center",
   },
@@ -58,7 +72,7 @@ const styles = StyleSheet.create({
     backgroundColor: "yellow",
   },
   subTitle: {
-    color: colors.medium,
+    color: colors.mediumGrey,
     fontFamily: "CharterItalic",
     fontWeight: "600",
   },

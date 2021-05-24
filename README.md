@@ -93,15 +93,15 @@ onPress={handlePress}
 [Forms #3 Building Better Forms with Formik](https://codewithmosh.com/courses/887220/lectures/16762478 'npm i formik')  
 [Forms #4 Form Validation with Yup](https://codewithmosh.com/courses/887220/lectures/16762471 'npm i yup 2:30 Yup.matches()')  
 [Forms #7 Building the Field Component](https://codewithmosh.com/courses/887220/lectures/16762484 '4:30 spread operator')  
-[Forms #9 Building the Form Component](https://codewithmosh.com/courses/887220/lectures/16762474 '1:30 {() => <>{children}</>}')
+[Forms #9 Building the Form Component](https://codewithmosh.com/courses/887220/lectures/16762474 '1:30 {() => <>{children}</>}')  
+[Forms #10 Organizing Components](https://codewithmosh.com/courses/887220/lectures/16762480 'moving to a forms folder')
 
-[Forms #10 Organizing Components](https://codewithmosh.com/courses/887220/lectures/16762480 'rnsf Functional Component')  
-[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
+https://blog.logrocket.com/react-native-form-validations-with-formik-and-yup/
 
-### [Forms #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
+### [ImproveMents #3 Handling Long Text](https://codewithmosh.com/courses/887220/lectures/16762519 '1:00 spread additonal props')
 
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[ImproveMents #8 Building the CategoryPickerItem Component](https://codewithmosh.com/courses/887220/lectures/16762523 '4:35 FlatList numColumns={3} 6:00 numberOfColumns')
+
 [ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
 [ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
 [ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
