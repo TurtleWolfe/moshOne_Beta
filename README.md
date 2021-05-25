@@ -102,15 +102,18 @@ https://blog.logrocket.com/react-native-form-validations-with-formik-and-yup/
 
 [ImproveMents #8 Building the CategoryPickerItem Component](https://codewithmosh.com/courses/887220/lectures/16762523 '4:35 FlatList numColumns={3} 6:00 numberOfColumns')
 
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
-[ImproveMents #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
+## [Part 2:](https://codewithmosh.com/courses/955852/ 'Mosh HameDani')
+
+### [Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/955852/lectures/17711043 '2:00 expo install expo-image-picker')
+
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')  
+[Native Features #6 Encapsulating Styles](https://codewithmosh.com/courses/887220/lectures/16617561 'rnsf Functional Component')
 
 [Uploading Apps to the Apple App Store and Google Play](https://docs.expo.io/distribution/uploading-apps/ 'Uploading Apps to the Apple App Store and Google Play')  
 [Overview](https://docs.expo.io/distribution/introduction/ 'Overview')  

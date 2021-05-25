@@ -3,20 +3,20 @@ import { StyleSheet } from 'react-native';
 
 import defaultStyles from "../config/styles";
 
-import AccountScreen from '../components/AccountScreen';
+import AccountScreen from './compScreens/AccountScreen';
 import AppCard from '../components/AppCard';
 import AppIcon from '../components/AppIcon';
 import AppText from '../components/AppText';
 import AppPicker from '../components/AppPicker';
 import AppTextInput from '../components/AppTextInput';
 // import EditScreenInfo from '../components/EditScreenInfo';
-import ListItem from "../components/ListItem";
-import ListingDetailsScreen from '../components/ListingDetailsScreen';
-import ListingEditScreen from '../components/ListingEditScreen';
-import ListingsScreen from '../components/ListingsScreen';
-import LoginScreen from '../components/LoginScreen';
+import ListItem from "../components/lists/ListItem";
+import ListingDetailsScreen from './compScreens/ListingDetailsScreen';
+import ListingEditScreen from './compScreens/ListingEditScreen';
+import ListingsScreen from './compScreens/ListingsScreen';
+import LoginScreen from './compScreens/LoginScreen';
 
-import WelcomeScreen from '../components/WelcomeScreen';
+import WelcomeScreen from './compScreens/WelcomeScreen';
 
 import { View } from '../components/Themed';
 import Icon from '../components/moshZalphaComponents/Icon';

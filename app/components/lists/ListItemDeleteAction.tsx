@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, TouchableWithoutFeedback, View } from 'react-native'
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-import colors from "../../constants/Colors";
+import colors from "../../../constants/Colors";
 const ListItemDeleteAction = ({ onPress }) => {
   return (
     <TouchableWithoutFeedback onPress={onPress}>

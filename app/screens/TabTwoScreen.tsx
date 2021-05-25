@@ -2,8 +2,8 @@ import * as React from 'react';
 import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
-import ViewImageScreen from '../components/ViewImageScreen';
-import MessageScreen from '../components/MessagesScreen';
+import ViewImageScreen from './compScreens/ViewImageScreen';
+import MessageScreen from './compScreens/MessagesScreen';
 import { Text, View } from '../components/Themed';
 
 export default function TabTwoScreen() {
