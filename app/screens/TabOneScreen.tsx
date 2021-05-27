@@ -62,7 +62,7 @@ export default function TabOneScreen() {
 
       {/* <AppTextInput
         placeholder="User Email"
-        // placeholderTextColor={defaultStyles.colors.danger}
+        placeholderTextColor={defaultStyles.colors.danger}
         icon="email"
       /> */}
 

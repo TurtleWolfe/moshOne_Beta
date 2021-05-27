@@ -5,8 +5,10 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import defaultStyles from "../config/styles";
 
 interface AppTextInputProps {
-  icon?: Component;
+  icon?: string;
   width?: string;
+  placeholder?: string;
+  placeholderTextColor?: string;
   // otherProps?: any;
 }
 
@@ -36,6 +38,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: defaultStyles.colors.lightGrey,
     borderRadius: 25,
+    // flex: 1,
     flexDirection: "row",
     // width: "100%",
     padding: 15,
