@@ -4,7 +4,6 @@ import { Image, StyleSheet, View } from 'react-native'
 import colors from '../../constants/Colors'
 import AppText from './AppText'
 
-
 interface AppCardProps {
   title: string;
   subTitle: string;

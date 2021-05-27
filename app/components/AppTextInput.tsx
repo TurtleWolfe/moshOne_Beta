@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { StyleSheet, TextInput, View } from 'react-native'
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import defaultStyles from "../config/styles";
 
-const AppTextInput = ({ icon, width = "100%", ...otherProps }) => {
+interface AppTextInputProps {
+  icon?: Component;
+  width?: string;
+  // otherProps?: any;
+}
+
+const AppTextInput: React.FC<AppTextInputProps> = ({
+  icon,
+  width = "100%",
+  ...otherProps
+}) => {
   return (
     <View style={[styles.container, { width }]}>
       {icon && (
