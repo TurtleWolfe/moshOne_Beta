@@ -88,7 +88,7 @@ export default function TabOneScreen() {
 
       {/* <ListingsScreen /> */}
 
-      {/* <LoginScreen /> */}
+      <LoginScreen />
 
       {/* <MessageScreen /> */}
 

@@ -25,7 +25,7 @@ const LoginScreen = () => {
 
   return (
     <Screen style={styles.container}>
-      <Image style={styles.logo} source={require("../assets/Supplementary/logo-red.png")} />
+      <Image style={styles.logo} source={require("../../assets/Supplementary/logo-red.png")} />
 
       <AppForm
         initialValues={{ email: '', password: '' }}

@@ -22,6 +22,7 @@
     "expo-asset": "~8.3.1",
     "expo-constants": "~10.1.3",
     "expo-font": "~9.1.0",
+    "expo-image-picker": "~10.1.4",
     "expo-linking": "~2.2.3",
     "expo-splash-screen": "~0.10.2",
     "expo-status-bar": "~1.0.4",
@@ -35,8 +36,7 @@
     "react-native-safe-area-context": "3.2.0",
     "react-native-screens": "~3.0.0",
     "react-native-web": "~0.13.12",
-    "yup": "^0.32.9",
-    "expo-image-picker": "~10.1.4"
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -45,5 +45,24 @@
     "jest-expo": "~41.0.0",
     "typescript": "~4.0.0"
   },
-  "private": true
+  "private": true,
+  "name": "moshone",
+  "description": "[React Native Elements](https://react-native-training.github.io/react-native-elements/ 'updated: 02-01-2021, users 77.9k') & [docs](https://react-native-training.github.io/react-native-elements/docs/getting_started.html 'docs') 77.9k",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurtleWolfe/moshOne.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "TypeScript",
+    "Tabs"
+  ],
+  "author": "TurtleWolfe.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TurtleWolfe/moshOne/issues"
+  },
+  "homepage": "https://github.com/TurtleWolfe/moshOne#readme"
 }

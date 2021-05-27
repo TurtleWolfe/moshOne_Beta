@@ -40,7 +40,7 @@ expo install yup
 expo install formik
 
 expo install expo-image-picker
-expo install expo-permissions
+# expo install expo-permissions
 expo install expo-sharing
 expo install anonymous-files
 
